@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fafafa !important;
+}
+
+#wrapper {
+  width: 500px;
+  height: 50%;
+  overflow: hidden;
+  border: 0px solid #000;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main-content {
+  width: 250px;
+  margin: 10px auto;
+  height: 40%; 
+  background-color: #f8f7f7;
+  border: 2px solid #eae7e7;
+  padding: 40px 50px;
+}
+
+.header {
+  border: 0px solid #000;
+  margin-bottom: 15px;
+
+}
+
+.header img {
+  height: 100px;
+  width: 180px;
+  margin: 15px auto;
+  position: relative;
+  left: 40px;
+}
+
+.input-1,
+.input-2 {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px 15px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+
+
+.overlap-text {
+  position: relative;
+}
+
+.overlap-text a {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #cacdd1;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Overpass Mono', monospace;
+  letter-spacing: -1px;
+}
+
+.btn {
+  text-transform: capitalize;
+  font-size: 16px;
+  width: 100%;
+  border: 0;
+  background-color: #8a9ef5;
+  padding: 5px 12px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+
+.s-part {
+  text-align: center;
+  overflow: hidden;
+  margin: 50px auto;
+  padding: 10px;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+  border-radius: 8px;
+  background: #dedbdb;
+  border: 1px solid #e6e6e6;
+  width: 200px;
+  height: 30px;
+}
+
+.s-part a {
+  width: 100%;
+  text-decoration: white;
+  cursor: pointer;
+  color: blue;
+  font-family: 'Overpass Mono', monospace;
+  word-spacing: -3px;
+  letter-spacing: -2px;
+  font-weight: normal;
+}
+
+input:focus {
+  background-color: rgb(202, 202, 192);
+}
+
+.btn-primary {
+  background-color: #3897f0;
+  border: 1px solid #3897f0 !important;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 auto;
+
+}
+
+.my-face {
+  align-content: center;
+  display: inline-block;
+  color: white;
+  border: none;
+  font-weight: 400px;
+  line-height: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: #8a9ef5;
+  padding: 5px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.my-face:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+
+.my-face:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  transition: 0.7s;
+}
+
+.my-btn:active {
+  background-color: #34bbe9;
+}
+
+.or {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.body-alt {
+  width: 250px;
+  margin: 10px auto;
+}
